@@ -1,10 +1,12 @@
 var inputText1=document.querySelector('#input-text1');
-var inputText=document.querySelector('#input-text2');
+var inputText2=document.querySelector('#input-text2');
 var btnTranslate= document.querySelector('#btn-output');
 var outputDiv = document.querySelector('#output')
 
 function onClickOutput(){
-    var rs=inputText1.value;
+    var m=inputText1.value;
+    var n=inputText2.value;
+    var rs=n-m;
    var a=0,b=0,c=0,d=0,e=0,f=0,result=0,result1=0,result2=0,result3=0,result4=0,result5=0,result6=0;
    while(rs>=2000){
     f=parseInt(rs/2000);
